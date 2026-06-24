@@ -1,0 +1,87 @@
+QPS Production Release Routine — One-time Setup
+================================================
+
+Goal:  fire `run_releases.sh` automatically at 5:55 AM ET, Mon–Fri.
+
+Prereqs
+-------
+- macOS with Claude Code installed (`claude` on PATH)
+- Node 18+ installed (`node` on PATH)
+- The five project files in ~/qps-releases:
+      releases.mjs
+      run_releases.sh
+      package.json
+      CLAUDE.md
+      CRON_SETUP.txt
+- MCPs connected in Claude Code:
+      Microsoft 365   (reads Outlook)
+      Composio        (sends email with attachment)
+  Verify with:   /mcp     (inside a Claude Code session)
+
+
+Step-by-step
+------------
+
+1. Install dependencies
+       cd ~/qps-releases
+       npm install
+
+2. Make the wrapper executable
+       chmod +x ~/qps-releases/run_releases.sh
+
+3. Confirm the path inside the wrapper matches reality
+   Open run_releases.sh and check the ROUTINE_DIR line:
+       ROUTINE_DIR="$HOME/qps-releases"
+   Replace with an absolute path if you put the folder elsewhere.
+
+4. Set the system timezone to Eastern (one-time)
+       sudo systemsetup -settimezone America/New_York
+       sudo systemsetup -gettimezone        # verify
+
+5. Install the cron entry
+       crontab -e
+   Add this line (replace YOUR_USERNAME with your macOS short name):
+
+       55 5 * * 1-5 /Users/YOUR_USERNAME/qps-releases/run_releases.sh
+
+   Verify it saved:
+       crontab -l
+
+6. Smoke test it manually before waiting for cron
+       cd ~/qps-releases
+       claude --print "run releases"
+   You should see Claude work through the steps in CLAUDE.md, then
+   receive the summary email.
+
+7. After the first scheduled run, check the log
+       tail -100 ~/qps-releases/release.log
+
+
+Troubleshooting
+---------------
+
+- "claude: command not found" in release.log
+    cron's PATH is stripped. run_releases.sh tries the usual spots
+    (/opt/homebrew/bin, /usr/local/bin). If `claude` is somewhere
+    else (e.g. ~/.npm-global/bin), prepend that to PATH at the top
+    of run_releases.sh.
+
+- "MCP not connected" / Outlook search empty
+    cron runs as your user but in a non-login shell. Make sure you
+    opened Claude Code at least once interactively after installing
+    the Microsoft 365 + Composio MCPs so the auth tokens are cached
+    on disk under your user.
+
+- Cron didn't fire
+    macOS' `cron` requires Full Disk Access on recent versions.
+    System Settings → Privacy & Security → Full Disk Access → add
+    /usr/sbin/cron.
+
+- Email didn't send but the spreadsheet updated
+    Check release.log for the Composio call. Most often this is a
+    missing or expired Composio connection — reconnect in Claude
+    Code and rerun.
+
+- I want to pause it for a week
+    `crontab -e` and comment the line out (`# 55 5 * * 1-5 …`),
+    or `crontab -r` to remove entirely.

@@ -1,0 +1,17 @@
+{
+  "name": "qps-releases",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "QPS Production Release Routine — tracks RTP/NTO/release emails and sends a daily summary.",
+  "scripts": {
+    "init-log": "node releases.mjs init",
+    "read-log": "node releases.mjs read"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
