@@ -1,0 +1,272 @@
+{
+  "generatedAt": "2026-07-14T10:04:00Z",
+  "generatedBy": "Daily Production Releases routine (Claude Code on the web)",
+  "priorRunEmail": "2026-07-13T10:20:00Z",
+  "priorRunState": {
+    "uniquePendingJobs": 27,
+    "logRows": 29
+  },
+  "openItem": {
+    "check": "sender-search-inbox-scope",
+    "testJob": "26-989 Moccasin Wallow (verified 2026-07-13)",
+    "result": "PASSED — carried forward from 2026-07-13 (one day prior). Today's Keaton/Maryanne sender searches also returned zero total — consistent with inbox-scoped behavior (all prior entries filed to PM folders no longer appear)."
+  },
+  "entries": [
+    {
+      "jobNumber": "Wynn Parcel",
+      "name": "Wynn Parcel",
+      "contractor": "Jensen Underground",
+      "pm": "Ian Zanetta",
+      "contact": "See Notes",
+      "phone": "See Notes",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2025-08-18",
+      "notes": "5 - RTP Package - Wynn Parcel - Jensen Underground - 08-15-25. AGED ~331 days — verify with Ian whether truly pending or filed-in-place.",
+      "messageId": "<PH0PR02MB7655780FF9B7F74E0DA12D84E934A@PH0PR02MB7655.namprd02.prod.outlook.com>"
+    },
+    {
+      "jobNumber": "25-839",
+      "name": "Reserve at Eastwood",
+      "contractor": "Alessio",
+      "pm": "Lee Goodwin",
+      "contact": "Bob Meadows (bmeadows@alessiocompanies.com)",
+      "phone": "(239) 633-3014",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2026-07-09",
+      "notes": "14 - RTP LSTS - Reserve at Eastwood (25-839) - Alessio - 7-9-26.",
+      "messageId": "<BN7PR02MB51693A8E00D31F14529011C6E1FE2@BN7PR02MB5169.namprd02.prod.outlook.com>"
+    },
+    {
+      "jobNumber": "26-235",
+      "name": "MLK Lots 6-8",
+      "contractor": "Alessio Construction",
+      "pm": "Lee Goodwin",
+      "contact": "Bob Meadows (bmeadows@alessiocompanies.com)",
+      "phone": "(239) 633-3014",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2026-07-09",
+      "notes": "5 - RTP LSTS - MLK Lots 6-8 (26-235) - Alessio Construction - 7-9-26.",
+      "messageId": "<BN7PR02MB51698A3EC362C8EE1FDA506CE1FE2@BN7PR02MB5169.namprd02.prod.outlook.com>"
+    },
+    {
+      "jobNumber": "26-1089",
+      "name": "Naples Nissan - Infinity Building",
+      "contractor": "Better Land Development",
+      "pm": "Lee Goodwin",
+      "contact": "Isabella Gonzalez (Operations Manager, Better Water LLC)",
+      "phone": "See Notes",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2026-07-08",
+      "notes": "3 - RTP - Naples Nissan - Infinity Building(26-1089) - Better Land Dev. Fully released job.",
+      "messageId": "<BN7PR02MB51695F30AAFF45BCB3E1728BE1FF2@BN7PR02MB5169.namprd02.prod.outlook.com>"
+    },
+    {
+      "jobNumber": "26-582",
+      "name": "Villas Elementary",
+      "contractor": "Titan Concrete & Utilities",
+      "pm": "Lee Goodwin",
+      "contact": "Todd Denney",
+      "phone": "239-766-8182",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2026-07-08",
+      "notes": "5 - RTP CSs - Villas Elementary(26-582) - Titan - 7-8-26. Last of the structures for this job.",
+      "messageId": "<BN7PR02MB5169459C0B8A8147C4208AFDE1FF2@BN7PR02MB5169.namprd02.prod.outlook.com>"
+    },
+    {
+      "jobNumber": "26-1121",
+      "name": "E. Lee Co. High School Ag Facility",
+      "contractor": "Titan Concrete & Utilities",
+      "pm": "Lee Goodwin",
+      "contact": "Todd Denney",
+      "phone": "239-766-8182",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2026-07-07",
+      "notes": "3 - RTP - E. Lee Co. High School Ag. Fac(26-1121) - Titan - 7-7-26. No NTO/NOC required per Dom.",
+      "messageId": "<BN7PR02MB51690F2D8844FA8DEE3D3F9DE1F02@BN7PR02MB5169.namprd02.prod.outlook.com>"
+    },
+    {
+      "jobNumber": "26-91",
+      "name": "2307 Andalusia Blvd 5-Unit Multi-Family",
+      "contractor": "Christo Inc.",
+      "pm": "Lee Goodwin",
+      "contact": "Victoria Walker",
+      "phone": "See Notes",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2026-07-06",
+      "notes": "5 - RTP - 2307 Andalusia Blvd 5-Unit Multi-Family(26-91) - Christo Inc. Fully released. 4461-B Hancock Bridge Pkwy N, Ft Myers.",
+      "messageId": "<BN7PR02MB5169097BBF6616069C73715CE1F02@BN7PR02MB5169.namprd02.prod.outlook.com>"
+    },
+    {
+      "jobNumber": "Firelight North Ph 1B",
+      "name": "Firelight North Phase 1B",
+      "contractor": "Deme Construction",
+      "pm": "Lee Goodwin",
+      "contact": "Chris J. (Deme)",
+      "phone": "See Notes",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2026-07-06",
+      "notes": "5 - RTP Package 8 - 9 - Firelight North Phase 1B - Deme Construction. Structures removed & readded under Non-Dpo Set. No QPS job # in subject.",
+      "messageId": "<BN7PR02MB51694F6B72D230D725550971E1F12@BN7PR02MB5169.namprd02.prod.outlook.com>"
+    },
+    {
+      "jobNumber": "25-892",
+      "name": "Pilot Travel Center",
+      "contractor": "WFL Underground",
+      "pm": "Lee Goodwin",
+      "contact": "Bill Lambert, CEO",
+      "phone": "239-860-0125",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2026-07-06",
+      "notes": "5 - RTP - Pilot Travel Center (25-892) - WFL Underground. Grease Trap is last structure to be released.",
+      "messageId": "<BN7PR02MB51695C62463DBFDBBD669726E1F12@BN7PR02MB5169.namprd02.prod.outlook.com>"
+    },
+    {
+      "jobNumber": "25-697",
+      "name": "Dia Crossing",
+      "contractor": "MAJ",
+      "pm": "Lee Goodwin",
+      "contact": "See Notes",
+      "phone": "See Notes",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2026-07-02",
+      "notes": "15 - RTP Partial - Dia Crossing (25-697) - MAJ. Everything released except GS-1 and Weir plates. Pricing review needed.",
+      "messageId": "<BN7PR02MB51691D1DC30555F147863B76E1F52@BN7PR02MB5169.namprd02.prod.outlook.com>"
+    },
+    {
+      "jobNumber": "26-774",
+      "name": "3505 Skyline Blvd",
+      "contractor": "Midwest Construction Products Corp.",
+      "pm": "Lee Goodwin",
+      "contact": "Ken Wilson (President)",
+      "phone": "239-432-2812 / 239-280-6458 (cell)",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2026-07-13",
+      "notes": "3 - RTP Partial - 3505 Skyline Blvd (26-774) - Midwest Construction - 7-13-26. S-2 removed due to issues with the structure — Lee emailed Dom and called the contractor. NEW today.",
+      "messageId": "<BN7PR02MB516978DDDBC8D34B3A191E15E1FA2@BN7PR02MB5169.namprd02.prod.outlook.com>"
+    },
+    {
+      "jobNumber": "26-177",
+      "name": "T-1813 FDOT (US-41 Sarasota) FIN# 444612-1-52-01",
+      "contractor": "C-Squared",
+      "pm": "Rodrigo Gracia",
+      "contact": "Sean D'Agostino / Amanda Kelly",
+      "phone": "(941) 345-3093 / (941) 720-9236",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2026-06-17",
+      "notes": "RELEASED to Prod. - 26-177 T-1813 FDOT (US-41 Sarasota). Customer looking to start September (aged ~4 wks — not stalled).",
+      "messageId": "<CY4PR02MB3174D931B4B811DDDCCA09DC8BE42@CY4PR02MB3174.namprd02.prod.outlook.com>"
+    },
+    {
+      "jobNumber": "25-1671",
+      "name": "T-1922 FDOT (Cortez Rd) FIN# 445044-1-52-01 & 445044-1-52-03",
+      "contractor": "Sun Civil",
+      "pm": "Rodrigo Gracia",
+      "contact": "Brian Brooks",
+      "phone": "(352) 346-1852",
+      "storm": "See Notes",
+      "san": "See Notes",
+      "lift": "See Notes",
+      "received": "2026-06-17",
+      "notes": "RELEASED to Prod. (22 Strs) - 25-1671 T-1922 FDOT (Cortez Rd) - Sun Civil. Start end of September (aged ~4 wks — not stalled).",
+      "messageId": "<CY4PR02MB31742D292E0AFA6C112303E08BE42@CY4PR02MB3174.namprd02.prod.outlook.com>"
+    }
+  ],
+  "perPmTotals": {
+    "Ian Zanetta": 1,
+    "Keaton Elliott": 0,
+    "Lee Goodwin": 10,
+    "Rodrigo Gracia": 2,
+    "Maryanne Siurano": 0
+  },
+  "totals": {
+    "logRows": 13,
+    "uniqueJobs": 13
+  },
+  "flags": [
+    {
+      "type": "aged",
+      "job": "Wynn Parcel",
+      "detail": "Received 2025-08-18 (~331 days). Verify with Ian if still truly pending or filed-in-place."
+    },
+    {
+      "type": "aged-but-scheduled",
+      "job": "26-177 T-1813 FDOT",
+      "detail": "~4 wks old; September start per customer — legitimately pending."
+    },
+    {
+      "type": "aged-but-scheduled",
+      "job": "25-1671 T-1922 FDOT Cortez",
+      "detail": "~4 wks old; end of September start per Sun Civil — legitimately pending."
+    },
+    {
+      "type": "large-drop-day",
+      "job": "17 filed between 2026-07-13 and 2026-07-14",
+      "detail": "All 4 Ian jobs (26-97, 25-336 x2, 26-803), all 4 Keaton jobs (26-211, 25-1594, 26-118, AA Investment), 4 older Lee jobs (25-1564, 26-839, 26-881, 25-1048), all 3 Rodrigo non-FDOT jobs (26-12, 25-45, 26-925 Black Bear Park), and both Maryanne jobs (26-1136, 26-521) all filed. Verify with Ryan that this many actual filings occurred (not an inbox rule / bulk sweep)."
+    },
+    {
+      "type": "skipped-fw-carryforward",
+      "job": "26-998 Golf FPL Manholes (NBC/Jensen)",
+      "detail": "Prior FW: messages skipped per Rule 8. No non-FW clean RTP appeared today either. Confirm with Ryan/Maryanne if actual release still needed."
+    },
+    {
+      "type": "skipped-fw-carryforward",
+      "job": "26-471 St Andrews Country Club",
+      "detail": "Prior FW: RTP from Maryanne on 7/10 skipped per Rule 8. No non-FW clean RTP appeared today. Confirm with Maryanne/Randy."
+    }
+  ],
+  "newSinceLastRun": [
+    {
+      "jobNumber": "26-774",
+      "name": "3505 Skyline Blvd",
+      "pm": "Lee Goodwin",
+      "contractor": "Midwest Construction Products Corp.",
+      "received": "2026-07-13",
+      "notes": "3 - RTP Partial (S-2 removed; Lee emailed Dom + called contractor).",
+      "messageId": "<BN7PR02MB516978DDDBC8D34B3A191E15E1FA2@BN7PR02MB5169.namprd02.prod.outlook.com>"
+    }
+  ],
+  "droppedSinceLastRun": [
+    {"jobNumber": "26-97", "name": "Hampton Lakes East PH2 - Sub 4", "pm": "Ian Zanetta"},
+    {"jobNumber": "25-336", "name": "Star Farms of Naples (add-on 7/6)", "pm": "Ian Zanetta"},
+    {"jobNumber": "25-336", "name": "Star Farms of Naples (add-on 7/2)", "pm": "Ian Zanetta"},
+    {"jobNumber": "26-803", "name": "Woodfield Mixed Use Add-Ons", "pm": "Ian Zanetta"},
+    {"jobNumber": "26-211", "name": "West Port Village", "pm": "Keaton Elliott"},
+    {"jobNumber": "25-1594", "name": "Dunkin Donuts 951", "pm": "Keaton Elliott"},
+    {"jobNumber": "26-118", "name": "Storm Spanwire", "pm": "Keaton Elliott"},
+    {"jobNumber": "AA Investment Apts", "name": "AA Investment Apts", "pm": "Keaton Elliott"},
+    {"jobNumber": "25-1564", "name": "Terminal Access", "pm": "Lee Goodwin"},
+    {"jobNumber": "26-839", "name": "Palm Manor-2 Guy Catering", "pm": "Lee Goodwin"},
+    {"jobNumber": "26-881", "name": "Airport Commerce Center Lot 1 Ph 3&4", "pm": "Lee Goodwin"},
+    {"jobNumber": "25-1048", "name": "Telcofacilities Data Center", "pm": "Lee Goodwin"},
+    {"jobNumber": "26-12", "name": "Thomas 167 (Village A)", "pm": "Rodrigo Gracia"},
+    {"jobNumber": "25-45", "name": "Downtown Estero - LS Top Slab (PS-7833)", "pm": "Rodrigo Gracia"},
+    {"jobNumber": "26-925", "name": "Black Bear Park", "pm": "Rodrigo Gracia / Maryanne Siurano (merged)"},
+    {"jobNumber": "26-1136", "name": "Upper Manatee River Road - 2' riser #S-407Arev", "pm": "Maryanne Siurano"},
+    {"jobNumber": "26-521", "name": "Tuttle Ave", "pm": "Maryanne Siurano"}
+  ],
+  "changesSincePriorRun": "17 dropped (large file-out day — likely a targeted sweep by Ryan) and 1 new (26-774 3505 Skyline Blvd from Lee, 2026-07-13). Pending list drops from 27 → 13. Oldest still pending: Wynn Parcel (2025-08-18, ~331 days)."
+}
