@@ -1,0 +1,7 @@
+scratchpad_*.txt
+scratchpad_*.json
+attach_payload.json
+body_json.txt
+email_body.html
+__pycache__/
+*.pyc
